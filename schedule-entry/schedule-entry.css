@@ -1,0 +1,42 @@
+form{
+    text-align: center;
+    border: solid;
+    border-color: grey;
+    margin: 5%;
+    margin-block: inherit;
+}
+input{
+    inline-size: 100%;
+    box-sizing: content-box;
+}
+input[type="submit"]:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 235, 235);
+    border-style: outset;
+}
+input[type="submit"]:active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 235, 235);
+    border-style: inset;
+}
+input[type="submit"]{
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 235, 235);
+    border-style: inset;
+}
+textarea {
+    resize: none; 
+    border: ridge;
+    border-width: 1px;
+}
+form p{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:5%;
+    margin-bottom: 5%; 
+    align-items: center;
+    align-items: center;
+}
+p input{
+    
+}

@@ -1,0 +1,18 @@
+body{
+    background-image: url("../Images/background-1.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer div{
+    background-color: rgb(96, 96, 155);
+    text-align:right;
+    vertical-align: center;
+    color:white;
+    height:10vh;
+    background-attachment: fixed;
+
+}
+footer{
+    size: wrap;
+}
