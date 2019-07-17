@@ -1,20 +1,25 @@
 header{
-    height:50px;
     width:100vw;
-    display:flex;
-    flex-direction: row;
-    justify-content:center;
+    background-color: rgb(107, 107, 255);
 }
 header div{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 80vw;
-    height:50px;
+    height:7vh;
+    margin: 0px 0;
+    width: 100%;
 }
-header div div h1{
-    margin: 0 0;
-    align-self: center;
+header div div {
+    float:left;
+    display:flex;
+    align-items:center;
+    width: 20vw;
+}
+header div div a{
+    font-size: 3vw;
+    margin:0 auto;
+    text-align:middle;
+    color: rgb(255, 239, 239);
+    font-style: normal;
+    font-family:Serif Bold, Helvetica, sans-serif;
 }
 body{
     background-image: url("../Images/background-1.svg");
@@ -26,7 +31,7 @@ body{
 }
 footer{
     background-color: rgb(96, 96, 155);
-    height:10vh;
+    height:40px;
     position:sticky;
     bottom:1;
 }
@@ -40,6 +45,7 @@ footer div p{
     display: table-cell;
     vertical-align:middle;
     text-align: right;
+    width:100vw;
 }
 /*
 .jump{
