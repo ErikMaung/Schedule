@@ -1,20 +1,25 @@
 #first{
     background-color: rgb(125, 157, 216);
     text-align: center;
-    line-height: 3000%;
     height: 100vh;
     margin:0%;
     padding:0%;
-    border-width: 0%;
+/*    transition-duration: 2s;
+    transition-delay: 1s;
+    transform: translateY(-110%);
+    opacity:100%;
+    transition-timing-function:linear;*/
 }
 #first *{
     color: white;
+    /*float: left;*/
+    /*height:30%;*/
+    padding: 10% 1em;
+    font-size: 6vw;
 }
-h1{
-    font-size:450%;
-}
-h3{
-    font-size: 200%;
+#first h1{
+    font-size:100%;
+    padding: 1em;
 }
 header{
     height: 0vh;
