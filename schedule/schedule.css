@@ -1,0 +1,14 @@
+#topbar {
+    background:cornflowerblue;
+    width: 100vw;
+}
+#scheduleapp{
+    height: 100%;
+}
+body{
+    width:100vw;
+}
+#headerp1{
+    align-self:left;
+    padding-left:0px;
+}
